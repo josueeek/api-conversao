@@ -9,9 +9,6 @@ const routes = express.Router();
 
 const classesController = new ClassesController();
 
-
-
-
 routes.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 routes.get('/', function(req, res) {

@@ -2,12 +2,6 @@
 import { Request, Response } from 'express';
 import os from 'os';
 
-
-interface ISettingsCreate {
-  chat: boolean;
-  username: string;
-}
-
 export default class ClassesController{
 
 
@@ -36,7 +30,6 @@ export default class ClassesController{
 
 
     }
-
 
   
 }
